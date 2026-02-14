@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "vM0VFdAcxpM=",
+  "dgSpecHash": "Np+c2I2zSr4=",
   "success": true,
   "projectFilePath": "/Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/Mission06_Hu.csproj",
   "expectedPackageFiles": [
@@ -22,6 +22,7 @@
     "/Users/jalen/.nuget/packages/microsoft.entityframeworkcore.relational/9.0.11/microsoft.entityframeworkcore.relational.9.0.11.nupkg.sha512",
     "/Users/jalen/.nuget/packages/microsoft.entityframeworkcore.sqlite/9.0.11/microsoft.entityframeworkcore.sqlite.9.0.11.nupkg.sha512",
     "/Users/jalen/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/9.0.11/microsoft.entityframeworkcore.sqlite.core.9.0.11.nupkg.sha512",
+    "/Users/jalen/.nuget/packages/microsoft.entityframeworkcore.tools/9.0.11/microsoft.entityframeworkcore.tools.9.0.11.nupkg.sha512",
     "/Users/jalen/.nuget/packages/microsoft.extensions.dependencymodel/9.0.11/microsoft.extensions.dependencymodel.9.0.11.nupkg.sha512",
     "/Users/jalen/.nuget/packages/mono.texttemplating/3.0.0/mono.texttemplating.3.0.0.nupkg.sha512",
     "/Users/jalen/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.10/sqlitepclraw.bundle_e_sqlite3.2.1.10.nupkg.sha512",

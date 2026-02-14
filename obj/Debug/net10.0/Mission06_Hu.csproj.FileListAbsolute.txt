@@ -209,3 +209,4 @@
 /Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/bin/Debug/net10.0/runtimes/win-x64/native/e_sqlite3.dll
 /Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/bin/Debug/net10.0/runtimes/win-x86/native/e_sqlite3.dll
 /Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/obj/Debug/net10.0/Mission0.01D4E4E1.Up2Date
+/Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/obj/Debug/net10.0/Mission06_Hu.sourcelink.json
