@@ -1,13 +1,18 @@
 @model Movie
 
+
 <div>
     <h1>Enter the Movie record</h1>
-    <form id="Movie" method="post">
-        <label asp-for="Category">Category</label>
-        <input asp-for="Category"/>
-        <span asp-validation-for="Category" class="text-danger"></span>
+    <form asp-controller="Home" asp-action="form" method="post">
+        <input type="hidden" asp-for="MovieId"/>
+        <select asp-for="CategoryId">
+            <option value="">Select a Category</option>
+            @foreach (Category c in ViewBag.Categories)
+            {
+                <option value="@c.CategoryId">@c.CategoryName</option>
+            }
+        </select>
         <br/>
-
         <label asp-for="Title">Title</label>
         <input asp-for="Title"/>
         <span asp-validation-for="Title" class="text-danger"></span>
@@ -43,12 +48,17 @@
         <input asp-for="LentTo"/>
         <span asp-validation-for="LentTo" class="text-danger"></span>
         <br/>
-
-        <label asp-for="Note">Note</label>
-        <input asp-for="Note" maxlength="25"/>
-        <span asp-validation-for="Note" class="text-danger"></span>
-        <br/>
         
+        <label asp-for="CopiedToPlex">Copied To Plex</label>
+        <input type="checkbox" asp-for="CopiedToPlex"></input>
+        <span asp-validation-for="CopiedToPlex" class="text-danger"></span>
+        <br/>
+
+        <label asp-for="Notes">Note</label>
+        <input asp-for="Notes" maxlength="25"/>
+        <span asp-validation-for="Notes" class="text-danger"></span>
+        <br/>
+
         <button type="submit">Add Movie</button>
     </form>
 </div>

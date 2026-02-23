@@ -7,4 +7,5 @@ public class MovieCollectionContext: DbContext
         : base(options) {}
     
     public DbSet<Movie> Movies { get; set; }
+    public DbSet<Category>  Categories { get; set; }
 }
