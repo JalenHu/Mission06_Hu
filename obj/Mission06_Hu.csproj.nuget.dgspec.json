@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/Mission06_Hu.csproj": {}
+    "/Users/jalen/Documents/Education/Winter2026/IS413/mission6/Mission06_Hu/Mission06_Hu.csproj": {}
   },
   "projects": {
-    "/Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/Mission06_Hu.csproj": {
+    "/Users/jalen/Documents/Education/Winter2026/IS413/mission6/Mission06_Hu/Mission06_Hu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/Mission06_Hu.csproj",
+        "projectUniqueName": "/Users/jalen/Documents/Education/Winter2026/IS413/mission6/Mission06_Hu/Mission06_Hu.csproj",
         "projectName": "Mission06_Hu",
-        "projectPath": "/Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/Mission06_Hu.csproj",
+        "projectPath": "/Users/jalen/Documents/Education/Winter2026/IS413/mission6/Mission06_Hu/Mission06_Hu.csproj",
         "packagesPath": "/Users/jalen/.nuget/packages/",
-        "outputPath": "/Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/obj/",
+        "outputPath": "/Users/jalen/Documents/Education/Winter2026/IS413/mission6/Mission06_Hu/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/jalen/.nuget/NuGet/NuGet.Config"

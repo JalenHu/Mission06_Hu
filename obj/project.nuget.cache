@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Np+c2I2zSr4=",
+  "dgSpecHash": "AodEPRQ+1Ac=",
   "success": true,
-  "projectFilePath": "/Users/jalen/RiderProjects/Mission06_LastName/Mission06_Hu/Mission06_Hu.csproj",
+  "projectFilePath": "/Users/jalen/Documents/Education/Winter2026/IS413/mission6/Mission06_Hu/Mission06_Hu.csproj",
   "expectedPackageFiles": [
     "/Users/jalen/.nuget/packages/humanizer.core/2.14.1/humanizer.core.2.14.1.nupkg.sha512",
     "/Users/jalen/.nuget/packages/microsoft.bcl.asyncinterfaces/7.0.0/microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

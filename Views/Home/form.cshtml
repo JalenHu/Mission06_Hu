@@ -3,7 +3,7 @@
 
 <div>
     <h1>Enter the Movie record</h1>
-    <form asp-controller="Home" asp-action="form" method="post">
+    <form asp-controller="Home" asp-action="@(Model.MovieId == null ? "form" : "Edit")" method="post">
         <input type="hidden" asp-for="MovieId"/>
         <select asp-for="CategoryId">
             <option value="">Select a Category</option>

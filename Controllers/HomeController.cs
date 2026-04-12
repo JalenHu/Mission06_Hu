@@ -7,7 +7,7 @@ namespace Mission06_Hu.Controllers;
 
 public class HomeController : Controller
 {
-    public MovieCollectionContext _context;
+    private readonly MovieCollectionContext _context;
 
     public HomeController(MovieCollectionContext temp)
     {
@@ -82,9 +82,17 @@ public class HomeController : Controller
     [HttpPost]
     public IActionResult Edit(Movie updatemovie)
     {
-        _context.Update(updatemovie);
-        _context.SaveChanges();
-        return RedirectToAction("MovieList");
+        if (ModelState.IsValid)
+        {
+            _context.Update(updatemovie);
+            _context.SaveChanges();
+            return RedirectToAction("MovieList");
+        }
+
+        ViewBag.Categories = _context.Categories
+            .OrderBy(c => c.CategoryName)
+            .ToList();
+        return View("form", updatemovie);
     }
 //Get to delete page
     [HttpGet]
